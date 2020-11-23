@@ -1,0 +1,12 @@
+{
+    "env":{
+        "PORT": "3000",
+        "HOST": "localhost",
+        "MONGODB_PORT": "27017",
+        "DB": "auth-api-db",
+        "SUCCESS_CODE": "200",
+        "CREATED_CODE": "201",
+        "BAD_REQUEST_CODE": "400",
+        "SERVER_ERROR_CODE": "500"
+    }
+}

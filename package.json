@@ -1,0 +1,31 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "Node express user registration and authentication api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malinga-hub/express-auth-api.git"
+  },
+  "keywords": [
+    "express-auth-api"
+  ],
+  "author": "Malinga Simuchimba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malinga-hub/express-auth-api/issues"
+  },
+  "homepage": "https://github.com/Malinga-hub/express-auth-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
