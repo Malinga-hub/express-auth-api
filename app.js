@@ -13,7 +13,7 @@ const router = express.Router();
 app.use(morgan('dev'))
 
 /* connect to mongodb server */
-mongoose.connect(`mongodb://${process.env.HOST}:${process.env.MONGODB_PORT}/${process.env.DB}`, {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(process.env.MONGO_URL || `mongodb://localhost:27017/auth-api-db`, {useNewUrlParser: true, useUnifiedTopology: true})
 .catch((err) => {
     console.log(err)
 })

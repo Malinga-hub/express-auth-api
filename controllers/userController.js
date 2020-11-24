@@ -20,7 +20,7 @@ exports.getAll = async (req, res, next) =>{
             "msg": "success",
             "code": 200,
             "records": users.length,
-            "respose": {data: usersFiltered}
+            "response": {data: usersFiltered}
         })
     }
     catch(error){
